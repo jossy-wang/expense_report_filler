@@ -20,7 +20,7 @@ pip3 install -r requirements.txt
 
 ## Use
 
-1. In Concur, export your report's expense list to Excel (`.xlsx`). It needs `Date`, `Expense Type`, and `Requested` columns.
+1. In Concur, export your report's expense list to Excel (`.xlsx`). It needs `Date`, `Expense Type`, and `Requested` columns. You can find the download button at the top right of the expense table when you have the draft expense report open. 
 2. Run:
 
 ```bash
