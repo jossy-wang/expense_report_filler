@@ -10,13 +10,35 @@ The script:
 
 ## Install
 
-Requires Python 3.9+.
+Requires Python 3.9+. If you've used the terminal before:
 
 ```bash
 git clone <this repo>
 cd expense_report_app
 pip3 install -r requirements.txt
 ```
+
+### First time using the terminal?
+
+1. **Install Python** from [python.org/downloads](https://www.python.org/downloads/). This also installs `pip`, which installs Python libraries.
+   - **Windows:** in the installer, tick **"Add python.exe to PATH"**. In all commands below, type `python` instead of `python3` and `pip` instead of `pip3`.
+2. **Get the code:** on the GitHub page, click **Code → Download ZIP**, then unzip it (for example into Downloads).
+3. **Open the terminal:**
+   - **Mac:** press `Cmd + Space`, type **Terminal**, press Enter.
+   - **Windows:** open the Start menu, type **PowerShell**, press Enter.
+4. **Go into the folder:** type `cd ` (with a space after it), drag the unzipped folder onto the terminal window, and press Enter.
+5. **Install the libraries:**
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+   On a new Mac, a pop-up may ask to install "command line developer tools". Click **Install**, wait for it to finish, then run the command again.
+
+You only do this once. After that, open the terminal, `cd` into the folder (step 4), and follow **Use** below.
+
+**Troubleshooting**
+- `command not found: pip3`: run `python3 -m pip install -r requirements.txt` instead.
+- `externally-managed-environment` error: you're using a Homebrew Python. Install Python from python.org instead.
+- **File names with spaces** need quotes, like `"My Expenses.xlsx"`. Dragging a file onto the terminal fills in its path with the quoting done for you.
 
 ## Use
 
