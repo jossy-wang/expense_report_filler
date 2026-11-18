@@ -1,0 +1,13 @@
+# Personal expense exports and filled forms (keep them out of git)
+*.xlsx
+!examples/*.xlsx
+*_form.pdf
+filled*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
