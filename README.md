@@ -14,7 +14,7 @@ Requires Python 3.9+. If you've used the terminal before:
 
 ```bash
 git clone <this repo>
-cd expense_report_app
+cd expense_report_filler
 pip3 install -r requirements.txt
 ```
 
